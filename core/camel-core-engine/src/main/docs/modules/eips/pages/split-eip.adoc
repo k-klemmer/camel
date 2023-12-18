@@ -201,7 +201,7 @@ XML::
 
 [IMPORTANT]
 ====
-When parallel processing is enabled, then the Camel routing engin will continue processing
+When parallel processing is enabled, then the Camel routing engine will continue processing
 using last used thread from the parallel thread pool. However, if you want to use the original
 thread that called the splitter, then make sure to enable the synchronous option as well.
 ====
